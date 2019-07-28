@@ -1,0 +1,4 @@
+logs/
+!logs/.gitkeep
+.mypy_cache
+__pycache__

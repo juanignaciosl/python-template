@@ -1,0 +1,8 @@
+flake8==3.7.7
+mypy==0.711
+pygal==2.4.0
+pytest==5.0.0
+pytest-cov==2.7.1
+pytest-mock==1.10.4
+pytest-benchmark==3.2.2
+pytest-benchmark[histogram]==3.2.2

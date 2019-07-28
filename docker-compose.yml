@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  mymodule:
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    entrypoint: /app/entrypoint.sh
