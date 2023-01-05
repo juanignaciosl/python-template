@@ -1,3 +1,5 @@
+.venv
+.tox
 logs/
 !logs/.gitkeep
 .mypy_cache

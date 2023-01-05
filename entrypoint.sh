@@ -10,6 +10,9 @@ case "$1" in
   test)
     exec python -m pytest tests
   ;;
+  tox)
+    exec tox
+  ;;
 esac
 
 exec "$@"
