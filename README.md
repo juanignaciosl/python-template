@@ -23,6 +23,8 @@ Setup a virtualenv:
 
 _Versions are not set at requirements.txt, you probably want to edit that file._
 
+You'll probably want to search for `mymodule` and replace it with your own module in all files but this one.
+
 # Running in local
 
     python mymodule/greetings.py
@@ -36,6 +38,11 @@ Use `tox` for running all the tests and linters.
     docker-compose run --rm mymodule run
     docker-compose run --rm mymodule test
     docker-compose run --rm mymodule lint
+
+# Pending improvements
+
+- [ ] Remove the need for replacing mymodule at config files.
+- [ ] Pre-commit or pre-push hook.
 
 # References
 
