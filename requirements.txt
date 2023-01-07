@@ -1,5 +1,6 @@
 black[d]
 flake8
+isort
 mypy
 pygal
 pytest

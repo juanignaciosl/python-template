@@ -5,7 +5,8 @@ Features:
 - mypy (runs as a test, see `test_mypy_compliance`)
 - flake8
 - tox
-- black (as a check, you should setup your environment)
+- black (as a check, you should setup your environment to run it)
+- isort (as a check, you should setup your environment to run it)
 
 # Installing
 
