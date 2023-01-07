@@ -5,6 +5,7 @@ Features:
 - mypy (runs as a test, see `test_mypy_compliance`)
 - flake8
 - tox
+- black (as a check, you should setup your environment)
 
 # Installing
 
@@ -24,14 +25,8 @@ _Versions are not set at requirements.txt, you probably want to edit that file._
 # Running in local
 
     python mymodule/greetings.py
-    python -m pytest tests
 
-You can also use `tox` for running the tests and linters.
-
-## Manual linting
-
-    mypy mymodule tests  # This is not needed, mypy is run at test step
-    flake8 mymodule tests
+Use `tox` for running all the tests and linters.
 
 # Running in Docker
 

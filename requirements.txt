@@ -1,3 +1,4 @@
+black[d]
 flake8
 mypy
 pygal
