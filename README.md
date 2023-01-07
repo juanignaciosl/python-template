@@ -23,7 +23,10 @@ Setup a virtualenv:
 
 _Versions are not set at requirements.txt, you probably want to edit that file._
 
-You'll probably want to search for `mymodule` and replace it with your own module in all files but this one.
+At this point, you probably want to run...
+1. `git init && git add . && git commit -a -m "First commit"`.
+2. Search for `mymodule` and replace it with your own module in all files but this one.
+3. `git add . && git commit -a -m "mymodule -> myactualmodule"`.
 
 # Running in local
 
