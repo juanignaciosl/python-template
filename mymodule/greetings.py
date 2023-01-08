@@ -1,6 +1,6 @@
-def greetings() -> None:
-    print("Hi!")
+def greetings() -> str:
+    return "Hi!"
 
 
 if __name__ == "__main__":
-    greetings()
+    print(greetings())
