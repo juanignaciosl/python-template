@@ -7,6 +7,12 @@ Features:
 - tox
 - black (as a check, you should setup your environment to run it)
 - isort (as a check, you should setup your environment to run it)
+- pytest
+
+Pending:
+
+- pyenv
+- Poetry
 
 # Installing
 
@@ -51,3 +57,4 @@ Use `tox` for running all the tests and linters.
 
 - [Four Horsemen of the Python Apocalypse](https://blog.kartones.net/post/four-horsemen-python-apocalypse/).
     - [Gist for running mypy as part of tests](https://github.com/Kartones/finished-games/blob/a7ff4fd0de0bab8cea434956396da68064262a1d/finishedgames/test/test_linters.py).
+- [Python libraries to make your code readable, reliable and maintainable](https://isaak.dev/2020/08/python-libraries-to-make-your-code-readable-and-maintainable).
