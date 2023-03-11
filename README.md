@@ -52,6 +52,7 @@ Use `tox` for running all the tests and linters.
 
 - [ ] Remove the need for replacing mymodule at config files.
 - [ ] Pre-commit or pre-push hook.
+- [ ] [Autoflake](https://github.com/PyCQA/autoflake).
 
 # References
 
